@@ -1,27 +1,11 @@
 import * as types from "./actionTypes"
 import axios from "axios"
 
-const postData = (payload) => (dispatch) => {
-    dispatch({ type: types.POST_DATA_REQUEST })
-    return axios
-        .post(`http://localhost:8080/products`, payload)
-        .then(() => {
-            return dispatch({
-                type: types.POST_DATA_SUCCESS,
-                payload
-            })
-        })
-        .catch(() => {
-            dispatch({ type: types.POST_DATA_FAILURE })
-        })
-
-}
-
 
 const getData = () => (dispatch) => {
     dispatch({ type: types.GET_DATA_REQUEST })
     return axios
-        .get('http://localhost:8080/products')
+        .get('https://backendfortest.herokuapp.com/products')
         .then((res) => {
 
             return dispatch({
@@ -38,7 +22,7 @@ const getData = () => (dispatch) => {
 const getDataMainCatogery = (payload) => (dispatch) => {
     dispatch({ type: types.GET_DATA_REQUEST })
     return axios
-        .get(`http://localhost:8080/products?MainCatogery=${payload}`)
+        .get(`https://backendfortest.herokuapp.com/products?MainCatogery=${payload}`)
         .then((res) => {
 
             return dispatch({
@@ -52,10 +36,10 @@ const getDataMainCatogery = (payload) => (dispatch) => {
 
 }
 
-const getDataSubCatogery = (e,payload) => (dispatch) => {
+const getDataSubCatogery = (e, payload) => (dispatch) => {
     dispatch({ type: types.GET_DATA_REQUEST })
     return axios
-        .get(`http://localhost:8080/products?MainCatogery=${e}&SubCatogery=${payload}`)
+        .get(`https://backendfortest.herokuapp.com/products?MainCatogery=${e}&SubCatogery=${payload}`)
         .then((res) => {
 
             return dispatch({
@@ -69,4 +53,8 @@ const getDataSubCatogery = (e,payload) => (dispatch) => {
 
 }
 
-export { postData, getData, getDataMainCatogery, getDataSubCatogery };
+
+
+
+
+export {  getData, getDataMainCatogery, getDataSubCatogery };

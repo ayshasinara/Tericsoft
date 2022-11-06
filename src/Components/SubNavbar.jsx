@@ -1,21 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import uniqid from 'uniqid'
-import {  getDataSubCatogery } from "../Redux/action";
+import { getDataSubCatogery } from "../Redux/action";
 function SubNavbar() {
     const subCategories = useSelector((e) => e.subCategory)
-    const MainCatogery=useSelector((e) => e.products)
-    // console.log(MainCatogery[0]?.MainCatogery)
-    const dispatch=useDispatch()
-    const handleGetdata=(p,e)=>{
-dispatch(getDataSubCatogery(p,e))
-    }
-    
+    const MainCatogery = useSelector((e) => e.products)
 
-    return <div style={{ display: "flex", justifyContent: "space-around", padding: "3% 0%" }} >
+    const dispatch = useDispatch()
+    const handleGetdata = (p, e) => {
+        dispatch(getDataSubCatogery(p, e))
+    }
+
+
+    return <div style={{ display: "flex", justifyContent: "space-around", padding: "1% 0%", boxShadow: "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px" }} >
         {
             subCategories.map((e) => {
-                return (<button key={uniqid()}  onClick={()=>handleGetdata(MainCatogery[0]?.MainCatogery,e)}>{e}</button>)
+                return (<button key={uniqid()} onClick={() => handleGetdata(MainCatogery[0]?.MainCatogery, e)}>{e}</button>)
             })
         }
     </div>;
