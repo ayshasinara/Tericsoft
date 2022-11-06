@@ -1,30 +1,43 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { getDataMainCatogery } from "../Redux/action";
 import style from "./Navbar.module.css"
+import uniqid from "uniqid"
+import IconButton from "./IconButton";
+import SubNavbar from "./SubNavbar";
 function Navbar() {
-  const dispatch = useDispatch()
 
-  const handleclick = (p) => {
-    dispatch(getDataMainCatogery(p))
-  }
+  let navbarData = [
+    {
+      icon: <i className="fa-solid fa-shirt fa-2x" ></i>,
+      catogery: 'Dress',
+      prop: 'dress'
+    },
+    {
+      icon: <i className="fa-solid fa-shoe-prints fa-2x"></i>,
+      catogery: 'Sheos',
+      prop: 'shoes'
+    },
+    {
+      icon: <i className="fa-solid fa-house-laptop fa-2x"></i>,
+      catogery: 'Electronics',
+      prop: 'electronics'
+    },
+    {
+      icon: <i className="fa-solid fa-bag-shopping fa-2x"></i>,
+      catogery: 'Bag',
+      prop: 'bag'
+    },
+  ]
+ 
 
-  return <div className={style.navContainer}>
-    <button onClick={() => handleclick("dress")}>
-      <i className="fa-solid fa-shirt fa-2x" ></i>
-      <div>Dress</div>
-    </button>
-
-    <button onClick={() => handleclick("shoes")}>
-      <i className="fa-solid fa-shoe-prints fa-2x"></i>
-      <div>Shoes</div>
-    </button>
-
-    <button onClick={() => handleclick("electronics")}>
-      <i className="fa-solid fa-house-laptop fa-2x"></i>
-      <div>Eelectronics</div>
-    </button>
-
+  return <div >
+<div className={style.navContainer}>
+    {
+      navbarData.map((e) => {
+        return <IconButton props={e} key={uniqid()} />
+      })
+    }
+     </div>
+     <SubNavbar  />
   </div>;
 }
 
