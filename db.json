@@ -1,0 +1,200 @@
+{
+  "products": [
+    {
+      "url": "https://m.media-amazon.com/images/I/41Bb3FyplZL._SX300_SY300_QL70_FMwebp_.jpg",
+      "name": "Xiaomi 11T Pro 5G Hyperphone",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 1
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/41jna+YGP+L._SY300_SX300_.jpg",
+      "name": "Samsung Galaxy M32 Prime Edition",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 2
+    },
+    {
+      "name": "Redmi 9 Activ",
+      "url": "https://m.media-amazon.com/images/I/91kAtEXPIeL._SX679_.jpg",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 3
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51GSe9rxsoL._SX679_.jpg",
+      "name": "Nokia 105",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 4
+    },
+    {
+      "name": "Samsung Galaxy M13",
+      "url": "https://m.media-amazon.com/images/I/81-fFXQdPTL._SX679_.jpg",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 5
+    },
+    {
+      "name": "OnePlus Nord CE 2 ",
+      "url": "https://m.media-amazon.com/images/I/41HSkMxLEJL._SX300_SY300_QL70_FMwebp_.jpg",
+      "MainCatogery": "electronics",
+      "SubCatogery": "mobile",
+      "id": 6
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/41uXxOM7XmL._SX300_SY300_QL70_FMwebp_.jpg",
+      "name": "Acer Extensa 15 Lightweight Laptop",
+      "MainCatogery": "electronics",
+      "SubCatogery": "laptop",
+      "id": 7
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61q6ZSqYmcL._SX679_.jpg",
+      "name": "Samsung Galaxy Book2 Pro",
+      "MainCatogery": "electronics",
+      "SubCatogery": "laptop",
+      "id": 8
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71S8U9VzLTL._SX679_.jpg",
+      "name": "ASUS VivoBook 15",
+      "MainCatogery": "electronics",
+      "SubCatogery": "laptop",
+      "id": 9
+    },
+    {
+      "SubCatogery": "smartwatch",
+      "url": "https://m.media-amazon.com/images/I/61u--Fe7+xL._SX679_.jpg",
+      "name": "Noise ColorFit Pulse 2",
+      "MainCatogery": "electronics",
+      "id": 10
+    },
+    {
+      "name": "Fire-Boltt Ninja 3 Smartwatch",
+      "url": "https://m.media-amazon.com/images/I/61F3eRezP-L._SX679_.jpg",
+      "MainCatogery": "electronics",
+      "SubCatogery": "smartwatch",
+      "id": 11
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/618mFEP9mTL._SX679_.jpg",
+      "name": "Noise ColorFit Pulse Grand Smart",
+      "MainCatogery": "electronics",
+      "SubCatogery": "smartwatch",
+      "id": 12
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51CcDXwx-VL._UX679_.jpg",
+      "name": "BIBA Women's Cotton a-line Mini Dress",
+      "MainCatogery": "dress",
+      "SubCatogery": "women",
+      "id": 13
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/81wH7CGIWbL._UY879_.jpg",
+      "name": "BIBA Women's Cotton a-line Floor Length Dress",
+      "MainCatogery": "dress",
+      "SubCatogery": "women",
+      "id": 14
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/517XIXP42gL._UX679_.jpg",
+      "name": "BIBA Women's Cotton Fit and Flare Below The Knee Dress",
+      "MainCatogery": "dress",
+      "SubCatogery": "women",
+      "id": 15
+    },
+    {
+      "name": "BIBA Women's Cotton Regular Kurta",
+      "url": "https://m.media-amazon.com/images/I/819bLthX37L._UY879_.jpg",
+      "MainCatogery": "dress",
+      "SubCatogery": "women",
+      "id": 16
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51YKV9lg8eL._UX679_.jpg",
+      "name": "V MART Men's Regular Fit T-Shirt",
+      "MainCatogery": "dress",
+      "SubCatogery": "men",
+      "id": 17
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71drGMpS1eL._UX679_.jpg",
+      "name": "V MART Men's Regular Fit Shirt",
+      "MainCatogery": "dress",
+      "SubCatogery": "men",
+      "id": 18
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/518eA5S6E6L._UX679_.jpg",
+      "name": "STOP Cotton Blend Regular Fit Mens Track Pants",
+      "MainCatogery": "dress",
+      "SubCatogery": "men",
+      "id": 19
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/714BK7dZsqL._UX679_.jpg",
+      "name": "Amazon Brand - Jam & Honey Baby-Girls Casual Dress",
+      "MainCatogery": "dress",
+      "SubCatogery": "kids",
+      "id": 20
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/91moMCxG-GL._UX679_.jpg",
+      "name": "Amazon Brand",
+      "MainCatogery": "dress",
+      "SubCatogery": "kids",
+      "id": 21
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61AjKQSFMhL._UY695_.jpg",
+      "name": "Centrino Men Formal Shoe",
+      "MainCatogery": "shoes",
+      "SubCatogery": "men",
+      "id": 22
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61RzGnUmPqL._UY695_.jpg",
+      "name": "Centrino Black Formal Shoe for Mens 8233-1",
+      "MainCatogery": "shoes",
+      "SubCatogery": "men",
+      "id": 23
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61RzGnUmPqL._UY695_.jpg",
+      "name": "Centrino Black Formal Shoe for Mens 8233-1",
+      "MainCatogery": "shoes",
+      "SubCatogery": "men",
+      "id": 24
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71rYxtbE8SS._UX695_.jpg",
+      "name": "BATA Mens Boss-Grip Uniform Dress Shoe",
+      "MainCatogery": "shoes",
+      "SubCatogery": "men",
+      "id": 25
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71+djfVNgHL._UX695_.jpg",
+      "name": "BATA Women Softy Blue",
+      "MainCatogery": "shoes",
+      "SubCatogery": "women",
+      "id": 26
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61ed5lSaRML._UY695_.jpg",
+      "name": "Aqualite Womens Trending Shoe",
+      "MainCatogery": "shoes",
+      "SubCatogery": "women",
+      "id": 27
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61SrQsdiA3L._UX695_.jpg",
+      "name": "Clarks Womens",
+      "MainCatogery": "shoes",
+      "SubCatogery": "women",
+      "id": 28
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.navContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button{
+    padding: 1%;
+    background-color: white;
+    border:none;
+}
+button:hover{
+    border: solid black 1px;
+}
